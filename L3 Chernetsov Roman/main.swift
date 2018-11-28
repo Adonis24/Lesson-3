@@ -131,7 +131,7 @@ struct PassangerCar {
     var engineState: EngineState
     var windowState: WindowState {
     willSet{ if newValue == .open{
-            print("Окна сейчас откроются! ")
+            print("Окна сейчас откроются!")
         } else{
             print("Окна сейчас закроются!")
             }
